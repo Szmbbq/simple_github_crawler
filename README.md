@@ -14,6 +14,6 @@ You need to have a working [Github](https://github.com/) account and replace the
 1. Create a cookie jar to store your access cookies.
 2. Then using the cookie jar you've just created to build an opener. (Urls that you wish to visit should be sent through this opener)
 3. Set up headers.
-4. Request the [login page](https://github.com/login/) and extract the authenticity token (`value` of an `input` tag named `authenticity_token`, which will be needed for form submission in the following step) from response html. 
+4. Request the [login page](https://github.com/login/) and extract the authenticity token (`value` of an `input` tag named `authenticity_token`, which will be needed for the login form submission in the following step) from response html. 
 5. Submit login information to the "real" login url, which is [this](https://github.com/session/).
 6. Once logged in, you can extract repositories and do other stuffs.
